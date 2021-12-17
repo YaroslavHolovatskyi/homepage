@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive, Helvetica, sans-serif;
     line-height: 1.5;
 
     --primary-text-color: #181820;
@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    background-color:rgba(255,255,255,.8);
+    background-color:rgba(255,255,255,.2);
     margin: 0 auto;
     padding: 0 30px;
     max-width: 900px;
@@ -48,6 +48,7 @@ body {
     border-bottom: 3px solid var(--border-color);
     padding-bottom: 30px;
     margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 576px) {
@@ -173,6 +174,7 @@ body {
 .experiences {
     flex: 1 1 60%;
     margin-right: 50px;
+    margin-top: 10px;
 }
 
 .experiences__header {
@@ -228,6 +230,7 @@ body {
 
 .additional-info {
     flex: 1 1 40%;
+    margin-top: 10px;
 }
 
 .additional-info__education {
